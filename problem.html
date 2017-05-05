@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Big Business 2.0
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120624
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>මහෞෂධ 2</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#menu > ul').dropotron({
+			mode: 'fade',
+			globalOffsetY: 11,
+			offsetY: -15
+		});
+		
+	});
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="index.html">මහෞෂධ 2</a></h1>
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="first">
+            <li><a href="index.html">Home</a></li>
+				<li>
+				<span class="opener" >Domain<b></b></span>
+				<ul>
+					<li><a href="Literature_survey.html">Literature survey</a></li>
+					<li><a href="Research_Gap.html">Research Gap</a></li>
+					<li><a href="problem.html">Problem to be addressed</a></li>
+					<li><a href="Objectives.html"> Objectives </a></li>
+				</ul>
+			</li>
+            <li>
+				<span class="opener">Milestones<b></b></span>
+				<ul>
+					<li><a href="Project_Proposal.html">Project Proposal</a></li>
+					<li><a href="SRS_Presentation.html">SRS Presentation</a></li>
+					<li><a href="Prototype_Presentation.html">Prototype Presentation</a></li>
+					<li><a href="Final Trial.html">Final Trial</a></li>
+					<li><a href="Final_Presentation.html">Final Presentation</a></li>
+                    <li><a href="Viva.html">Viva</a></li>
+				</ul>
+			</li>
+            <li><a href="Document.html">Documents</a></li>
+			<li><a href="Presentation_Slide.html">Presentation Slides</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+			<li><a href="Contact_Us.php">Contact Us</a></li>
+		</ul>
+		<br class="clearfix" />
+	</div>	
+	<div id="page">
+		<div id="content">
+			<div class="box">
+				<h2>Problem to be addressed</h2>
+					<h4><li type=square>Key word identification</li></h4>
+							
+							<p>This function mainly focus on identifying the key words of a provided mathematical word problem in Sinhala language.
+							   In solving this problem Part Of Speech tagging(POS tagging) techniques has been applied.
+							</p>
+						
+						
+							
+								<h4><li type=square>Mathematical Problem Identification</li></h4>
+							
+							<p>
+								This function is focused on meaning generation. The target is to identify what the problem is based on.
+								System looks for 'wh questions' and identifies to which question category the provided problem falls in to.
+								this step involves training a model to identify question pattern of a sentence.For that Conditional 
+								Random Field (CRF) algorithm has been used 
+								    
+							</p>
+						
+						
+								
+								<h4><li type=square>Mathematical Operation Identification</li></h4>
+							
+							<p>This research part is involved in identifying the correct mathematical operation for a given word problem.
+							   In this approach the verb categorization has been applied. There we developed a method to find mathematical operation using relevant keywords and verb categories.After finding the consisting of entities (E), Containers (C), Attributes (A), relations(R) among entities and quantities, form the states < s1, s2… sT > by updating quantities in every container using learned verb categories.After finding the relevant mathematical operation ,form the equation by comparing the quantities
+							   for matched containers between two states.identification, mathematical operation and the output of sentence classification are combined together in neural network to solve the problem and generate the correct answer.
+							</p>
+							
+							
+								<h4><li type=square>Creating Neural Network</li></h4>
+								
+								   <p>
+								    The neural network should be both capable of sentence classification and generating the final output of a given problem.
+									In this approach we use a classification neural network which identifies the positive and negative sentences of a given paragraph.
+									Apart from that the keywords, output of question
+								   </p>
+						
+							
+			</div>
+			
+			
+
+		
+
+		</div>
+		<br class="clearfix" />
+	</div>
+	<div id="page-bottom">
+		
+		
+		<br class="clearfix" />
+	</div>
+</div>
+<div id="footer">
+	Copyright (c) 2015-2016 Mahoshada.com. All rights reserved.
+</div>
+</body>
+</html>
